@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>E-Learning Platform</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="navbar">
+    <div class="logo">E-Learn</div>
+    <nav class="nav-links">
+      <input type="text" placeholder="Search courses..." class="search-input" />
+      <a href="#">My Courses</a>
+      <a href="#">Profile</a>
+    </nav>
+    <button class="menu-btn" onclick="toggleMenu()">☰</button>
+  </header>
+
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="#">My Courses</a>
+    <a href="#">Profile</a>
+  </div>
+
+  <main class="course-container">
+    <div class="course-card">
+      <h3>React Basics</h3>
+      <p>Learn the fundamentals of React.</p>
+      <button>Start Learning</button>
+    </div>
+    <div class="course-card">
+      <h3>Advanced JavaScript</h3>
+      <p>Deep dive into modern JavaScript.</p>
+      <button>Start Learning</button>
+    </div>
+    <div class="course-card">
+      <h3>UI/UX Design</h3>
+      <p>Design beautiful and functional interfaces.</p>
+      <button>Start Learning</button>
+    </div>
+  </main>
+
+  <script>
+    function toggleMenu() {
+      const menu = document.getElementById('mobileMenu');
+      menu.classList.toggle('open');
+    }
+  </script>
+</body>
+</html>

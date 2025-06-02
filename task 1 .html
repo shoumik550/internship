@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: 'Segoe UI', sans-serif;
+    }
+
+    body {
+      background: #f4f4f4;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    header {
+      background: #222;
+      color: #fff;
+      padding: 20px 0;
+      text-align: center;
+    }
+
+    nav {
+      background: #444;
+      text-align: center;
+    }
+
+    nav a {
+      color: white;
+      display: inline-block;
+      padding: 14px 20px;
+      text-decoration: none;
+    }
+
+    nav a:hover {
+      background: #555;
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: 20px auto;
+      padding: 20px;
+      background: white;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    section {
+      margin-bottom: 40px;
+    }
+
+    h2 {
+      color: #2c3e50;
+      margin-bottom: 10px;
+      border-bottom: 2px solid #3498db;
+      display: inline-block;
+      padding-bottom: 5px;
+    }
+
+    ul {
+      list-style-type: none;
+    }
+
+    ul li {
+      padding: 8px 0;
+    }
+
+    form input, form textarea, form button {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 10px;
+    }
+
+    form button {
+      background: #3498db;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+
+    form button:hover {
+      background: #2980b9;
+    }
+
+    footer {
+      background: #222;
+      color: white;
+      text-align: center;
+      padding: 20px 0;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Shoumik Biswas</h1>
+    <p>Frontend Developer | Designer | Tech Enthusiast</p>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#projects">Projects</a>
+    <a href="#skills">Skills</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <div class="container">
+    <section id="about">
+      <h2>About Me</h2>
+      <p>Hi! I am shoumik biswas Seeking opportunities and securing a position where l can efficiently contribute my skills and abilities for the
+growth of the organization and my professional career.</p>
+    </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+      <ul>
+        <li><strong>Portfolio Website:</strong> A personal portfolio to showcase my skills and work. <a href="#">View Project</a></li>
+
+        <li><strong>Employee Database System</strong> This project presents the design and implementation of an Employee Database System (EDS) using HTML, CSS,
+and JavaScript. The EDS aims to streamline employee management by providing a centralized platform for
+storing, retrieving, and managing employee information efficiently. The system’s front-end is developed using
+HTML for structure, CSS for styling,and JavaScript for dynamic interactions.</li>
+
+        <li><strong>Home automation</strong> Home automation refers to the use of technology to control and manage household systems and appliances
+automatically or remotely. It integrates various smart devices, sensors, and controllers to enhance convenience,
+security, energy efficiency, and overall home management.</li>
+      </ul>
+    </section>
+
+    <section id="skills">
+      <h2>Skills</h2>
+      <p>HTML5, CSS3, JavaScript, React, Git, Responsive Design, UI/UX Basics</p>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <form>
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Your Email" required>
+        <textarea rows="5" placeholder="Your Message"></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+    </section>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 Shoumik Biswas | All rights reserved</p>
+  </footer>
+</body>
+</html>
