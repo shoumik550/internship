@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>TechNova | Empowering Innovation</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f5f8ff;
+    }
+
+    header {
+      background-color: #0a192f;
+      color: white;
+      padding: 80px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 48px;
+      margin-bottom: 10px;
+    }
+
+    header p {
+      font-size: 20px;
+      color: #9bbbd4;
+    }
+
+    section {
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    .services {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: space-around;
+    }
+
+    .service-card {
+      background-color: white;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      flex: 1 1 300px;
+    }
+
+    .service-card h3 {
+      margin-bottom: 10px;
+      color: #0a192f;
+    }
+
+    .form-section {
+      background-color: #ffffff;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 0 8px rgba(0,0,0,0.1);
+    }
+
+    .form-section h2 {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+    }
+
+    input, textarea {
+      padding: 12px;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      font-size: 16px;
+    }
+
+    button {
+      padding: 12px;
+      background-color: #0077ff;
+      color: white;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      font-size: 16px;
+    }
+
+    button:hover {
+      background-color: #005ec4;
+    }
+
+    footer {
+      background-color: #0a192f;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+    }
+
+    @media (max-width: 768px) {
+      header h1 {
+        font-size: 32px;
+      }
+
+      .services {
+        flex-direction: column;
+        align-items: center;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>TechNova</h1>
+    <p>Empowering Innovation with Smart Solutions</p>
+  </header>
+
+  <section>
+    <h2 style="text-align:center; margin-bottom:30px;">Our Services</h2>
+    <div class="services">
+      <div class="service-card">
+        <h3>AI Development</h3>
+        <p>Custom machine learning and AI-powered solutions for modern businesses.</p>
+      </div>
+      <div class="service-card">
+        <h3>Web & App Design</h3>
+        <p>Responsive, user-centric websites and mobile apps tailored to your brand.</p>
+      </div>
+      <div class="service-card">
+        <h3>Cloud Integration</h3>
+        <p>Secure, scalable cloud services to streamline your operations.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="form-section">
+    <h2>Book an Appointment</h2>
+    <form>
+      <input type="text" placeholder="Full Name" required />
+      <input type="email" placeholder="Email Address" required />
+      <input type="text" placeholder="Company / Organization" />
+      <textarea placeholder="Tell us what you're looking for..." rows="4"></textarea>
+      <button type="submit">Submit Request</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 TechNova. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
